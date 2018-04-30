@@ -10,6 +10,11 @@
     "build": "npx tsc",
     "test": "SET NODE_ENV=test&& mocha -r ts-node/register server/tests/*.test.ts --timeout 5000 --exit"
   },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm run lint && npm test"
+    }
+  },
   "author": "Luca Campana",
   "license": "ISC",
   "dependencies": {
