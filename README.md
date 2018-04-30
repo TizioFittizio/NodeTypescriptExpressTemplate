@@ -11,6 +11,7 @@ Boilerplate project typescript + node + express
   * Mongodb (well...)
   * Mongoose
   * Sample schema with static and model methods
+  * Sample routers
   
 ## How to get it work
  * Clone/Download this repository

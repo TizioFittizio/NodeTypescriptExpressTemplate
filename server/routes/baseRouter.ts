@@ -1,25 +1,10 @@
 import { Router, Request, Response, NextFunction } from 'express';
-
-export type RouteAction = (req: Request, res: Response) => void;
-export type RouteMiddleware = (req: Request, res: Response, next: NextFunction) => void;
-
-export interface IRoute {
-
-    url: string;
-    method: Method;
-    action: RouteAction;
-    middlewares?: RouteMiddleware[];
-
-}
-
-export enum Method {
-    GET = 'GET',
-    POST = 'POST',
-    PATCH = 'PATCH',
-    DELETE = 'DELETE'
-}
+import { IRoute } from '../interfaces/IRoute';
+import { Method } from '../types';
 
 export abstract class BaseRouter {
+
+    // TODO MA SE PROVO A FARE CHE ESTENDE UN ROUTER?
 
     private router: Router;
     private routes: IRoute[];
