@@ -13,7 +13,7 @@ Boilerplate project typescript + node + express
   * Sample schema with static and model methods
   
 ## How to get it work
- * Install/Download this repository
+ * Clone/Download this repository
  * In the root folder, type in terminal ```npm install```
  * Followed by ```npm start``` or ```npm run start```
  * To run the tests, use ```npm run test```
