@@ -4,8 +4,6 @@ import { Method } from '../types';
 
 export abstract class BaseRouter {
 
-    // TODO MA SE PROVO A FARE CHE ESTENDE UN ROUTER?
-
     private router: Router;
     private routes: IRoute[];
 
