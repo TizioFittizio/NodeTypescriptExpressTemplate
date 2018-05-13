@@ -16,7 +16,9 @@ Boilerplate project typescript + node + express
 ## How to get it work
  * Clone/Download this repository
  * In the root folder, type in terminal ```npm install```
- * Followed by ```npm start``` or ```npm run start```
+ * Followed by ```npm run type-start```, this will run the typescript project
+ * You can use live-reload with nodemon with ```npm run watch```
+ * In production, you may want to use ```npm start``` or ```npm run start``` , this will run the compiled javascript files in the dist folder
  * To run the tests, use ```npm run test```
 
 ## Configuration
